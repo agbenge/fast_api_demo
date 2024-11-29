@@ -11,7 +11,7 @@ class Body(BaseModel):
 
 @app.get('/')
 def root():
-    return Response("<h1>A self-documenting API that uses the FastAPI framework</h1>")
+    return Response("<h1>A self-documenting API that uses the FastAPI framework in cloud 9 test </h1>")
 
 
 @app.post('/generate')
